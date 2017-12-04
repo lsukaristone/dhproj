@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Where the Lion Roars: An 1890 African Colonial Cookery Book</title>
+            <author>Mrs. A. R. Barnes</author> 
+            <editor>David Saffery</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Originally published in 1890, republished in 2006.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A cookbook and household guide made for British settlers in Africa.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <div type="recipe" xml:id ="recipe001">
+         <head>Plum Pudding, No. 3 </head>
+         <p>The grated crumbs of 6 <seg type="ingredient">small breakfast rolls</seg>, 3 cups flour, 1 lb. 
+            <seg type="ingredient">stoned raisins</seg>, 1 lb. <seg type="ingredient">currants</seg>, 1 lb. fine <seg type = "ingredient">beef suet</seg>, 
+            1/2 grated <seg type="ingredient">nutmeg</seg>, 1 cup of <seg type = "ingredient">milk</seg>, a little <seg type="ingredient">ground cinnamon</seg>, 1 teacupful <seg type ="ingredient"> sugar</seg>, 
+            some <seg type = "ingredient" subtype="local">pounded <note type = "foot" place = "bottom">23 Naartje: clementine or.... </note>naartje peel</seg>, 1 saltspoonful <seg type="ingredient">salt</seg>, 1 wineglass <seg type = "ingredient">French brandy</seg>,  
+            some <seg type="ingredient">mixed candied peel</seg>, the <seg type="ingredient">juice of 2 or 3 lemons</seg>, 6, 8, or 10 <seg type = "ingredients">eggs</seg>, or an <seg type = "substitution" subtype = "local">ostrich egg</seg>. Boil six hours in a mould.</p>
+         </div>
+     
+    
+      <div type="recipe" xml:id = "recipe002">
+          <head>Curry and Rice.</head>
+         <p>Cut the <seg type="ingredient">meat</seg> up very small. Fresh uncooked meat is necessarily the best. Fredge it with <seg type = "ingredient">flour</seg>, 
+         and place the meat at the bottom of a saucepan with has some <seg type="ingredient">melted fat</seg> in it, add some <seg type = "ingredient">sliced onions</seg> <seg type="ingredient">pepper</seg>,and <seg type="ingredient">salt</seg>, and as much 
+            <seg type="ingredient">dry curry powder</seg>dry curry powder as is liked. Some people and children care for only sufffiecient to flavour it, whilist others like it very strong and hot. <seg type="ingredient" subtype = "local">Cartwright's curry powder (Cape Town)</seg> 
+            is the best to be obtained in the colony. It is prepared from an old and valuable recipe.</p>
+         <pb/>
+         <p>Dissolve some <seg type="ingredient" subtype="local">tamarind</seg> in hot <seg type="ingredient">water</seg>, add its liquor, of if no tamarind is at hand a very small pinch of <seg type="ingredient" subtype ="substitution">tartaric acid</seg> gives the same flavour. Stir all well together until the meat browns nicely, 
+            then add as much hot water as will cover the whole, 
+            put in the <seg type="ingredient">potatoes</seg> soon after if they are to be cooked with it, skim off all the fat, and prcoeed to boil until the meat is tender. If, when ready, the curry needs thickening, mix into a smooth paste a little <seg type="ingredient" subtype="local">maizena<note type = "foot" place="bottom">Corn starch, cornstarch, cornflour</note></seg></p>
+      </div>
+      
+      <div type="recipe" xml:id = "recipe003">
+        <p>Arrowroot Cakes</p>
+        <p>Mix 1 cup of <seg type="ingredient" subtype="local">arrowroot</seg> with 1 cup of butter well, then add 1 cup of <seg type="ingredient"> sugar</seg>, pinch of <seg type="ingredient">salt</seg>, and 1 teaspoonful of <seg type="ingredient">carbonate of soda</seg>. Beat 3 <seg type = "ingredient">eggs</seg>well, and add them to it. 
+           Mix well together and bake in patty pans.</p>
+      </div>
+  
+      </body>
+  </text>
+   
+</TEI>
